@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Veelo Staging Page Suite]">
+  <test thread-count="5" name="Exam(failed)">
+    <parameter name="password" value="Password1$"/>
+    <parameter name="platform" value="mac"/>
+    <parameter name="username" value="ulises@example.com"/>
+    <classes>
+      <class name="com.veelo.exam.StagingPageTest">
+        <methods>
+          <include name="examTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.veelo.exam.StagingPageTest -->
+    </classes>
+  </test> <!-- Exam(failed) -->
+</suite> <!-- Failed suite [Veelo Staging Page Suite] -->

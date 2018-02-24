@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Veelo Staging Page Suite">
+<test name="Exam">
+<!-- Use either "windows" or "mac" as valid platforms below. -->
+<parameter name="platform" value="mac"></parameter>
+<!-- Modify the following parameters according to the credentials to use in the test. -->
+<parameter name="username" value="ulises@example.com"></parameter>
+<parameter name="password" value="Password1$"></parameter>
+<classes>
+	<class name="com.veelo.exam.StagingPageTest"></class>
+</classes>
+</test>
+</suite>
